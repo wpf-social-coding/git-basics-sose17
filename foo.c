@@ -27,13 +27,8 @@ int main(int argc, char *argv[]) {
 	XMapWindow(dpy, win);
 
 	while(1) {
-	
 		XNextEvent(dpy, &event);
 	}
-	
-
 	return 0;
-
-
 }
 
